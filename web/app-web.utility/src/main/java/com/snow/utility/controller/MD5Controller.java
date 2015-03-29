@@ -1,0 +1,1 @@
+package com.snow.utility.controller;import org.springframework.stereotype.Controller;import org.springframework.web.bind.annotation.RequestMapping;@Controller("Md5Controller")@RequestMapping("/MD5")public class MD5Controller {	@RequestMapping("/index.do")	public String index(){		return "/md5/md5index";	}}
